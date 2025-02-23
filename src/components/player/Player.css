@@ -1,0 +1,67 @@
+.menu {
+    background-color: #1b1b1cff;
+    height: 100vh;
+    color: white;
+}
+
+.caminho {
+    display: flex;
+    background-color: #0f0f0fff;
+    margin: 0 340px;
+}
+.caminho p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.caminho-abc ul{
+    display: flex;
+    background-color: #2b2b2bff;
+    color: #87827eff;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 340px;
+}
+
+.caminho-abc li {
+    margin: 10px 10px 10px 20px;
+}
+
+.content {
+    display: flex;
+    height: 500px;
+    margin: 0 340px;
+}
+
+.video-play {
+    background-color: black;
+    height: 500px;
+    width: 900px;
+}
+
+.video-control {
+    display: flex;
+    background-color: #0f0f0fff;
+}
+
+.video-control button {
+    width: 34%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-top: 1px solid #333333ff;
+    border-bottom: 1px solid #333333ff;
+    border-left: none;
+    border-right: none;
+}
+
+button:nth-child(2) {
+    border-left: 1px solid #333333ff;
+    border-right: 1px solid #333333ff;
+  }
+  
+
+.populares {
+    width: 400px;
+    background-color: #0f0f0fff;
+}

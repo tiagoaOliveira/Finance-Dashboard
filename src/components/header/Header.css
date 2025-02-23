@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    color: white;
+}   
+
+.header-title {
+    display: flex;
+    padding: 3px 0;
+}
+
+.header-title h1 {
+    margin: 5px 50px 5px 350px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav  p{
+    margin-right: 40px;
+}
+
+.header-input {
+    border-radius: 5px;
+    margin-left: 300px;
+}
+
+  
