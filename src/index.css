@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background-color: #1b1b1cff;
+}
+
+a, button {
+  cursor: pointer;
+}

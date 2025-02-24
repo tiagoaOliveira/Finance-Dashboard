@@ -1,14 +1,20 @@
 .menu {
     background-color: #1b1b1cff;
-    height: 100vh;
-    color: white;
+    padding: 0 340px;
 }
 
 .caminho {
     display: flex;
+    align-items: center;
     background-color: #0f0f0fff;
-    margin: 0 340px;
+    color: white;
+    font-size: 14px;
 }
+
+.right-chevron2 {
+    font-size: 12px;
+}
+
 .caminho p {
     margin-right: 10px;
     margin-left: 10px;
@@ -20,7 +26,7 @@
     color: #87827eff;
     text-transform: uppercase;
     list-style: none;
-    margin: 0 340px;
+    /*margin: 0 340px;*/
 }
 
 .caminho-abc li {
@@ -29,22 +35,23 @@
 
 .content {
     display: flex;
-    height: 500px;
-    margin: 0 340px;
 }
 
 .video-play {
     background-color: black;
     height: 500px;
-    width: 900px;
 }
 
 .video-control {
     display: flex;
+    align-items: center;
     background-color: #0f0f0fff;
 }
 
 .video-control button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 34%;
     height: 50px;
     background-color: transparent;
@@ -53,15 +60,121 @@
     border-bottom: 1px solid #333333ff;
     border-left: none;
     border-right: none;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.left-chevron, .right-chevron {
+    margin-top: 1px;
+    font-size: 16px;
 }
 
 button:nth-child(2) {
     border-left: 1px solid #333333ff;
     border-right: 1px solid #333333ff;
-  }
+}
+
+.menu-icon {
+    font-size: 20px;
+}
   
+.about p {
+    padding: 10px;
+    color: white;
+    background-color: #0f0f0fff;
+}
 
 .populares {
-    width: 400px;
+    width: 40%;
+    border-left: 1px solid #333333ff;
     background-color: #0f0f0fff;
+}
+
+.comments {
+    background-color: #0f0f0fff;
+    color: #757a7dff;
+}
+
+.comments h2 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+
+}
+
+.avatar-icon {
+    background-color: black;
+    color: red;
+    font-size: 25px;
+    border-radius: 13px;
+}
+
+.comment-box {
+    background-color: #0f0f0fff;
+    color: white;
+    padding-left: 10px;
+}
+
+.comment-box > h3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.comment-icon {   
+    color: red;
+    font-size: 20px;
+}
+
+.comment-data {
+    display: flex;
+}
+
+.comment-data p {
+    margin-bottom: 5px;
+    color: #76787aff;
+}
+
+.add-comment {
+    width: 80%;
+    margin: 10px 0 10px 10px;
+    height: 50px;
+    background-color: #1a1a1aff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input.add-comment {
+    padding: 10px;
+}
+
+.data-mail, .data-name {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.data-mail p, .data-name p {
+    padding-top: 5px;
+}
+
+.data-box {
+    width: 300px;
+    height: 50px;
+    background-color: #1a1a1aff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.comment-publish {
+    background-color: #1a1a1aff;
+    color: white;
+    margin: 30px 10px;
+    padding: 5px 10px;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 5px;
 }
